@@ -1,0 +1,29 @@
+@import 'base.css';
+@import 'layout.css';
+
+.f-left {
+    border-radius: 50%;
+    width: 300px;
+
+    float: left;
+    margin-right: 0.8em;
+    margin-bottom: 1em;
+
+    shape-outside: circle();
+}
+
+.f-right {
+    border-radius: 50%;
+    width: 300px;
+
+    float: right;
+    margin-right: 0.8em;
+    margin-bottom: 1em;
+
+    shape-outside: circle();
+}
+
+.img-tomato {
+    position: relative;
+    transform: translateX(-150px);
+}
